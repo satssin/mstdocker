@@ -1,6 +1,6 @@
 FROM alpine:latest
 LABEL maintainer="<satish.kumar1@mheducation.com>"
-LABEL description="This example Dockerfile installs NGINX."
+LABEL description="This example Dockerfile installs NGINX. for me"
 RUN apk add --update nginx && \
         rm -rf /var/cache/apk/* && \
         mkdir -p /tmp/nginx/
